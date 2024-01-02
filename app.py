@@ -9,8 +9,8 @@ from orthomosaics.utils.azure_blob_storage import AzureStorage
 from orthomosaics.utils.rest_api import Payload, Results, decode_image
 
 storage = AzureStorage(
-    container_name="ztest1",
-    connection_string="DefaultEndpointsProtocol=https;AccountName=kstore001;AccountKey=9uZs2wl5jj6TkVU3quxLO23aJOlQuIYKwH8AGrpAyFNjqOCOmGTOB6ozHJjmBad4qc3M11FhOvQ1UgK7klptvg==;EndpointSuffix=core.windows.net",
+    container_name="YOUR_CONTAINER_NAME",
+    connection_string="YOUR_AZURE_CONNECTION_STRING",
 )
 app = FastAPI(title="Orthomosaics", debug=False, version="1.0.0")
 app.add_middleware(
