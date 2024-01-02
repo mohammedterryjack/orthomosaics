@@ -19,8 +19,8 @@ To build up an orthomosaic, you will require the backdown images and somea addit
 
 ```csv
 image_path,roll[deg],pitch[deg],heading[deg],projectedX[m],projectedY[m]
-backdown_images/NH-P3-A11-EB-WB-Red-Lodge-to-Barton-Mills_sideview_000001_000018.jpg,-47.34954,27.09975,572731.967,273978.545
-backdown_images/NH-P3-A11-EB-WB-Red-Lodge-to-Barton-Mills_sideview_000001_000019.jpg,-47.27221,27.15481,572730.591,273975.798
+images/1.jpg,-47.34954,27.09975,572731.967,273978.545
+images/2.jpg,-47.27221,27.15481,572730.591,273975.798
 ...
 ```
 
