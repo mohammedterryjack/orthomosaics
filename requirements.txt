@@ -1,0 +1,12 @@
+numpy
+scipy
+opencv-python-headless
+shapely
+geopandas
+
+matplotlib
+pydantic
+
+uvicorn
+fastapi
+azure-storage-blob
